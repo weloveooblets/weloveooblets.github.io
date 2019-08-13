@@ -5,7 +5,8 @@
   "scripts": {
     "prebuild": "rmdir deploy /s /q",
     "build": "parcel build -d deploy src/index.html",
-    "dev": "parcel -d dist src/index.html"
+    "dev": "parcel -d dist src/index.html",
+    "deploy": "gh-pages --dist deploy --branch master"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^9.6.1",
+    "cssnano": "^4.1.10",
+    "gh-pages": "^2.1.1",
     "node-sass": "^4.12.0",
     "postcss-modules": "^1.4.1"
   }

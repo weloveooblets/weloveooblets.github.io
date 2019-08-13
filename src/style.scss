@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Platform Web;
+    src: url("fonts/Platform-BoldItalic-Web.eot");
+    src: url("fonts/Platform-BoldItalic-Web.eot?#iefix") format("embedded-opentype"), url("fonts/Platform-BoldItalic-Web.woff2") format("woff2"), url("fonts/Platform-BoldItalic-Web.woff") format("woff");
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: Platform Web;
+    src: url("fonts/Platform-Bold-Web.eot");
+    src: url("fonts/Platform-Bold-Web.eot?#iefix") format("embedded-opentype"), url("fonts/Platform-Bold-Web.woff2") format("woff2"), url("fonts/Platform-Bold-Web.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: Platform Web;
+    src: url("fonts/Platform-MediumItalic-Web.eot");
+    src: url("fonts/Platform-MediumItalic-Web.eot?#iefix") format("embedded-opentype"), url("fonts/Platform-MediumItalic-Web.woff2") format("woff2"), url("fonts/Platform-MediumItalic-Web.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: Platform Web;
+    src: url("fonts/Platform-Medium-Web.eot");
+    src: url("fonts/Platform-Medium-Web.eot?#iefix") format("embedded-opentype"), url("fonts/Platform-Medium-Web.woff2") format("woff2"), url("fonts/Platform-Medium-Web.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: Platform Web;
+    src: url("fonts/Platform-RegularItalic-Web.eot");
+    src: url("fonts/Platform-RegularItalic-Web.eot?#iefix") format("embedded-opentype"), url("fonts/Platform-RegularItalic-Web.woff2") format("woff2"), url("fonts/Platform-RegularItalic-Web.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: Platform Web;
+    src: url("fonts/Platform-Regular-Web.eot");
+    src: url("fonts/Platform-Regular-Web.eot?#iefix") format("embedded-opentype"), url("fonts/Platform-Regular-Web.woff2") format("woff2"), url("fonts/Platform-Regular-Web.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: Platform Web;
+    src: url("fonts/Platform-LightItalic-Web.eot");
+    src: url("fonts/Platform-LightItalic-Web.eot?#iefix") format("embedded-opentype"), url("fonts/Platform-LightItalic-Web.woff2") format("woff2"), url("fonts/Platform-LightItalic-Web.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: Platform Web;
+    src: url("fonts/Platform-Light-Web.eot");
+    src: url("fonts/Platform-Light-Web.eot?#iefix") format("embedded-opentype"), url("fonts/Platform-Light-Web.woff2") format("woff2"), url("fonts/Platform-Light-Web.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: Platform Web;
+    src: url("fonts/Platform-HairlineItalic-Web.eot");
+    src: url("fonts/Platform-HairlineItalic-Web.eot?#iefix") format("embedded-opentype"), url("fonts/Platform-HairlineItalic-Web.woff2") format("woff2"), url("fonts/Platform-HairlineItalic-Web.woff") format("woff");
+    font-weight: 100;
+    font-style: italic;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: Platform Web;
+    src: url("fonts/Platform-Hairline-Web.eot");
+    src: url("fonts/Platform-Hairline-Web.eot?#iefix") format("embedded-opentype"), url("fonts/Platform-Hairline-Web.woff2") format("woff2"), url("fonts/Platform-Hairline-Web.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal
+}
+
+body {
+  margin: 50px 100px;
+  color: #24292e;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 300;
+  font-family: Platform Web;
+  font-style: normal;
+  font-stretch: normal;
+  -ms-font-feature-settings: "liga", "kern";
+  -o-font-feature-settings: "liga", "kern";
+  -webkit-font-feature-settings: "liga", "kern";
+  font-feature-settings: "liga", "kern";
+}
+h1 {
+  font-size: 4em
+}
+
+h1,
+h2 {
+  font-family: Platform Web;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 2.5em
+}
+
+h3 {
+  font-family: Platform Web;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 1.75em
+}
+
+ol, p, ul {
+
+}
+
+a {
+
+}
+
+a:hover {
+  cursor: pointer
+}
+
+b {
+  font-weight: 700
+}
