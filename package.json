@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "prebuild": "rmdir docs /s /q",
-    "build": "parcel build -d docs src/index.html",
-    "dev": "parcel -d docs src/index.html"
+    "prebuild": "rmdir deploy /s /q",
+    "build": "parcel build -d deploy src/index.html",
+    "dev": "parcel -d dist src/index.html"
   },
   "repository": {
     "type": "git",
