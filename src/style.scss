@@ -1,3 +1,27 @@
+$primary: #BFE8E4;
+//$secondary: #ee6e73;
+//$secondary: #fb9d9e;
+$secondary: #EEABAC; //
+//$secondary: #F0BBA9;
+//$secondary: #EEB8BD;
+//$secondary: #FCBDE4;
+$svgfill: str-slice(quote($secondary), 2);
+$fontstack: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+
+$small-screen-up: 601px !default;
+$medium-screen-up: 993px !default;
+$large-screen-up: 1201px !default;
+$small-screen: 600px !default;
+$medium-screen: 992px !default;
+$large-screen: 1200px !default;
+
+$medium-and-up: "only screen and (min-width : #{$small-screen-up})" !default;
+$large-and-up: "only screen and (min-width : #{$medium-screen-up})" !default;
+$extra-large-and-up: "only screen and (min-width : #{$large-screen-up})" !default;
+$small-and-down: "only screen and (max-width : #{$small-screen})" !default;
+$medium-and-down: "only screen and (max-width : #{$medium-screen})" !default;
+$medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width : #{$medium-screen})" !default;
+
 @font-face {
     font-family: Platform Web;
     src: url("fonts/Platform-BoldItalic-Web.eot");
@@ -89,34 +113,36 @@
 }
 
 body {
-  margin: 50px 100px;
+  margin: 0;
   color: #24292e;
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  font-family: $fontstack;
   font-size: 14px;
   line-height: 1.5;
+  background-color: $primary;
 }
+
+.section {
+}
+
+.container {
+  // display: block;
+  // margin: 0 auto;
+  // max-width: 1280px;
+  // min-height: 1000px;
+  // background-color: $primary;
+}
+
 
 h1, h2, h3, h4, h5 {
-  font-weight: 300;
+  font-weight: 700;
   font-family: Platform Web;
   font-style: normal;
   font-stretch: normal;
-  -ms-font-feature-settings: "liga", "kern";
-  -o-font-feature-settings: "liga", "kern";
-  -webkit-font-feature-settings: "liga", "kern";
   font-feature-settings: "liga", "kern";
 }
-h1 {
-  font-size: 4em
-}
 
-h1,
-h2 {
-  font-family: Platform Web;
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-  font-size: 24px;
+h1 {
+  font-size: 8em;
 }
 
 h2 {
@@ -139,10 +165,176 @@ a {
 
 }
 
+p {
+  font-family: 'Proxima Nova';
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 16px;
+  line-height: 24px;
+}
+
 a:hover {
   cursor: pointer
 }
 
 b {
   font-weight: 700
+}
+
+.parallax-container.banner {
+  background-color: rgba(0,0,0,0.2);
+  color: white;
+  height: 450px;
+
+  i {
+    font-size: 30px;
+    margin-left: 5px;
+  }
+
+  h1 {
+    width: 300px;
+    text-shadow: 0px 4px 8px rgba(0,0,0, .4);
+    font-weight: 600;
+    font-size: 88px;
+    margin: 30px 0 0 0;
+  }
+
+  .secondary {
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    width: auto;
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Lato', $fontstack;
+    margin-top: 10px;
+
+    @media #{$medium-and-up} {
+      margin-top: 20px;
+    }
+  }
+
+  .wg {
+    font-style: italic;
+    color: #bfe8e4;
+  }
+
+  .glumberland {
+    font-style: italic;
+    color: #febebe;
+  }
+}
+
+main {
+  // background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  margin: 0 auto;
+  padding: 0 80px 120px;
+  max-width: 1280px;
+  position: relative;
+  overflow: visible;
+}
+
+.art-group {
+  display: flex;
+  position: relative;
+  width: 100%;
+  //border-top: 1px solid #333;
+}
+.art-wrapper
+{
+
+
+  .art {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.blockquote-wrapper {
+    background: white;
+    padding: 5px 45px;
+    /* background-color: rgba(255,255,255,0.9); */
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+}
+
+
+blockquote {
+  font-family: 'Proxima Nova'; //todo
+  border-left: 3px solid $secondary;
+  color: rgba(0,0,0,0.75);
+
+  //font-weight: 400
+  // font-size: 1.25em;
+  font-size: 16px;
+  // font-style: italic
+  // line-height: 1.8em
+  padding-left: 32px;
+  line-height: 24px;
+  padding-top: 5px;
+  position: relative;
+  transition: .2s border ease-in-out;
+  z-index: 0;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -6px;
+    height: 2.5em;
+    background-color: #ffffff;
+    width: 8px;
+    margin-top: -1.25em;
+  }
+  &:after {
+    // content: "\f35f";
+    //content: url("img/quote.svg");
+    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="%23#{$svgfill}" d="M96.4 416h77.1l50.9-96.6V96h-160v223.4h77.1L96.4 416zm224 0h77.1l50-96.6V96H288.4v223.4h82l-50 96.6z"/></svg>');
+    position: absolute;
+    top: 50%;
+    left: -0.75em;
+    color: $secondary;
+    font-style: normal;
+    line-height: 1em;
+    text-align: center;
+    text-indent: -2px;
+    width: 1.5em;
+    margin-top: -0.75em;
+    transition: .2s all ease-in-out, .4s transform ease-in-out;
+  // &.format:before, &.format:after
+  //   display: none
+  // &.book:after
+  //   content: "\f12e"
+  // &.podcast:after
+  //   content: "\f32d"
+  // &.lyrics:after
+  //   content: "\f333"
+  // &.favorite:after
+  //   content: "\f384"
+  }
+  &:active:after {
+    transform: rotateY(360deg);
+  }
+    
+  cite {
+    display: block;
+    margin-top: 16px;
+    margin-left: 0px;
+    font-size: 18px;
+    //color: #555;
+
+    font-weight: 100;
+    font-size: 22px;
+    font-style: normal;
+    
+    .dash {
+
+    }
+    .name {
+      color: #888;
+      //color: #fb9d9e;
+      //color: darken($secondary, 20%)
+      
+      //color: darken(#BFE8E4, 20%);
+    }
+  }
 }
