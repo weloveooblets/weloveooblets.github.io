@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/weloveooblets/weloveooblets.github.io#readme",
   "dependencies": {
+    "fonts": "0.0.2",
     "materialize-css": "^1.0.0-rc.2"
   },
   "devDependencies": {

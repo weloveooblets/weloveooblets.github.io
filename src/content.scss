@@ -1,0 +1,60 @@
+@import "common";
+
+.art-maddhattpatt {
+  position: absolute;
+  max-width: 50%;
+  right: -1%;
+  top: 0%;
+
+  @media #{$medium-and-up} {
+    max-width: 42%;
+    right: 7%;
+    top: 0%;
+  }
+}
+
+.art-amandine {
+  position: absolute;
+  max-width: 50%;
+  left: 0%;
+  top: 99%;
+
+  @media #{$medium-and-up} {
+    max-width: 45%;
+    left: 4%;
+    top: 79%;
+  }
+}
+
+.quote-wakingoni {
+  position: absolute;
+  max-width: 60%;
+  left: 2%;
+  top: 15%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.art-katie-alpha {
+  position: absolute;
+  max-width: 50%;
+  left: 0%;
+  top: 35%;
+
+  @media #{$medium-and-up} {
+    max-width: 45%;
+    left: 5%;
+    top: 15%;
+  }
+}
+
+.quote-amandine {
+  position: absolute;
+  right: 4%;
+  top: 80%;
+  width: 45%;
+
+  @media #{$medium-and-up} {
+  }
+}
