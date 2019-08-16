@@ -1,4 +1,4 @@
-# weloveooblets.github.io
+# [weloveooblets.github.io](weloveooblets.github.io)
 
 we 🖤 ooblets  
 TODO: project description & list of contributors, gif, tweet, etc
