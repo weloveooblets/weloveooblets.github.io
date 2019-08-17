@@ -6,6 +6,7 @@
   "scripts": {
     "prebuild": "rmdir deploy /s /q",
     "build": "copyfiles README.md deploy & parcel build -d deploy src/index.html",
+    "buildlocal": "parcel build -d scraps/local src/index.html --public-url ./",
     "dev": "parcel -d dist src/index.html",
     "deploy": "gh-pages --dist deploy --branch master"
   },
