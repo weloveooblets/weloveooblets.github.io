@@ -1,0 +1,15 @@
+@import "common";
+
+.art-wrapper {
+  // pointer-events: none;
+}
+.art-wrapper,
+.quote-wrapper {
+  position: absolute;
+  top: 0;
+}
+
+@import "group_patt";
+@import "group_jacob";
+@import "group_jens";
+@import "group_zugai";

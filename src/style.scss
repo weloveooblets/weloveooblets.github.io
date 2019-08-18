@@ -1,4 +1,4 @@
-@import 'common';
+@import 'style/common';
 
 body {
   overflow: hidden;
@@ -58,12 +58,12 @@ ul {
 a {
 }
 
-p {
-  font-family: Proxima Nova Web, $fontstack;
-  color: rgba(80, 50, 50, 0.75);
-  font-size: 16px;
-  line-height: 24px;
-}
+// p {
+//   font-family: Proxima Nova Web, $fontstack;
+//   color: rgba(80, 50, 50, 0.75);
+//   font-size: 16px;
+//   line-height: 24px;
+// }
 
 a:hover {
   cursor: pointer;
@@ -159,6 +159,18 @@ main {
   }
 }
 
+.aesthetic {
+  font-weight: 900;
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: auto;
+  font-style: italic;
+  box-decoration-break: clone;
+  /* font-size: 1.5em; */
+}
 
 
 blockquote {
@@ -191,6 +203,11 @@ blockquote {
   position: relative;
   transition: 0.2s border ease-in-out;
   z-index: 0;
+
+  p {
+    margin: 0;
+    margin-bottom: 5px;
+  }
 
   &:before {
     content: "";
@@ -247,11 +264,11 @@ blockquote {
     font-weight: 100;
 
     margin-left: 0px;
-    margin-top: 5px;
+    margin-top: 0px;
     font-size: 16px;
 
     @media #{$large-and-up} {
-      margin-top: 10px;
+      margin-top: 5px;
       margin-left: 0px;
       font-size: 22px;
     }

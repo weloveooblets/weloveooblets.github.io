@@ -1,0 +1,87 @@
+.group-jens {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  //   margin-top: 20px;
+  //   border-top: 1px solid black;
+
+  .absolute {
+    padding-top: 60%;
+    @media #{$medium-and-up} {
+    }
+  }
+}
+
+.art-wakingoni {
+  // max-width: 50%;
+  // left: -1%;
+  // padding-top: 0%;
+
+  @media #{$medium-and-up} {
+    max-width: 37%;
+    left: -2%;
+    padding-top: 13%;
+  }
+}
+
+.art-jens {
+  // max-width: 50%;
+  // left: 0%;
+  // padding-top: 0;
+
+  @media #{$medium-and-up} {
+    max-width: 31%;
+    left: 32%;
+    padding-top: 25%;
+  }
+}
+
+.quote-jens {
+  max-width: 55%;
+  left: 2%;
+  padding-top: 9%;
+
+  @media #{$medium-and-up} {
+    padding-top: 3%;
+  }
+}
+
+.art-yung {
+  // max-width: 50%;
+  // right: 0%;
+  // padding-top: 35% * 0.6;
+
+  @media #{$medium-and-up} {
+    max-width: 45%;
+    right: 0%;
+    padding-top: 8%;
+  }
+}
+
+
+
+.art-dbar {
+  max-width: 14%;
+  left: 10%;
+  padding-top: 53%;
+
+  @media #{$medium-and-up} {
+
+  }
+}
+
+.quote-thomas {
+  // right: 4%;
+  // padding-top: 80% * 0.6;
+  // width: 45%;
+  // z-index: 1;
+  position: relative;
+  padding-right: 4%;
+  margin-top: 48.5%;
+  max-width: 49%;
+  margin-bottom: 5%;
+  // align-self: flex-end;
+
+  @media #{$medium-and-up} {
+  }
+}
