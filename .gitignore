@@ -1,11 +1,9 @@
 node_modules/
 .DS_Store
-package-lock.json
 coverage
 .nyc_output
 .cache
 dist
-deploy/
 lib
 .vscode/
 .idea/
@@ -18,3 +16,4 @@ yarn-debug.log*
 yarn-error.log*
 tmp
 scraps/
+dev_build/
