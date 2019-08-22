@@ -9,6 +9,7 @@ body {
   font-size: 14px;
   line-height: 1.5;
   background-color: $primary;
+  background-color: black;
 }
 
 .section {
@@ -117,6 +118,7 @@ b {
 }
 
 main {
+  background-color: $primary;
   // background-color: rgba(0, 0, 0, 0.1);
   // display: flex;
   margin: 0 auto;

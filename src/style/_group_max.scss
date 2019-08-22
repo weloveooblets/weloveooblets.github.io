@@ -1,67 +1,70 @@
+
 .group-max {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  //   margin-top: 20px;
-  //   border-top: 1px solid black;
 
   .absolute {
-    padding-top: 60%;
+    padding-top: 90%;
     @media #{$medium-and-up} {
     }
   }
+}
+
+/* Elements */
+
+.art-elena {
+    max-width: 36%;
+    right: 17%;
+    padding-top: 0%;
+
+    @media #{$medium-and-up} {
+    }
+}
+
+.art-bobacupcake {
+    max-width: 36%;
+    left: 1%;
+    padding-top: 0%;
+    margin-top: -15%;
+
+    @media #{$medium-and-up} {
+    }
+}
+
+.quote-elena {
+    max-width: 47%;
+    right: 5%;
+    padding-top: 37%;
+
+    @media #{$medium-and-up} {
+    }
+}
+
+.quote-bobacupcake {
+    max-width: 38%;
+    left: 0;
+    padding-top: 12%;
+
+    @media #{$medium-and-up} {
+    }
 }
 
 .art-max {
-  max-width: 37%;
-  left: -2%;
-  padding-top: 13%;
+    max-width: 50%;
+    left: -6%;
+    padding-top: 38%;
 
-  @media #{$medium-and-up} {
-  }
-}
-
-.art-boba {
-  max-width: 31%;
-  left: 32%;
-  padding-top: 25%;
-
-  @media #{$medium-and-up} {
-  }
+    @media #{$medium-and-up} {
+    }
 }
 
 .quote-max {
-  max-width: 55%;
-  left: 2%;
-  padding-top: 9%;
+    position: relative;
+    max-width: 39%;
+    margin-right: 27%;
+    margin-top: 61%;
 
-  @media #{$medium-and-up} {
-    padding-top: 3%;
-  }
-}
-
-.quote-boba {
-    max-width: 55%;
-    left: 2%;
-    padding-top: 9%;
-  
     @media #{$medium-and-up} {
-      padding-top: 3%;
     }
-  }
-
-.quote-elena {
-  // right: 4%;
-  // padding-top: 80% * 0.6;
-  // width: 45%;
-  // z-index: 1;
-  position: relative;
-  padding-right: 4%;
-  margin-top: 48.5%;
-  max-width: 49%;
-  margin-bottom: 5%;
-  // align-self: flex-end;
-
-  @media #{$medium-and-up} {
-  }
 }

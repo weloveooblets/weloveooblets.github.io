@@ -1,12 +1,12 @@
 .group-zugai {
   display: flex;
   flex-flow: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   //   margin-top: 20px;
   //   border-top: 1px solid black;
 
   .absolute {
-    //padding-top: 110%;
+    padding-top: 72%;
     @media #{$medium-and-up} {
       //padding-top: 90%;
     }

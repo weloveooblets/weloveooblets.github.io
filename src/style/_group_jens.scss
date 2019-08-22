@@ -2,8 +2,6 @@
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  //   margin-top: 20px;
-  //   border-top: 1px solid black;
 
   .absolute {
     padding-top: 60%;
@@ -13,22 +11,20 @@
 }
 
 .art-wakingoni {
-  // max-width: 50%;
-  // left: -1%;
-  // padding-top: 0%;
+  max-width: 37%;
+  left: -2%;
+  padding-top: 13%;
 
   @media #{$medium-and-up} {
-    max-width: 37%;
-    left: -2%;
-    padding-top: 13%;
   }
 }
 
 .art-jens {
+  max-width: 31%;
+  left: 32%;
+  padding-top: 25%;
+
   @media #{$medium-and-up} {
-    max-width: 31%;
-    left: 32%;
-    padding-top: 25%;
   }
 }
 
@@ -43,14 +39,11 @@
 }
 
 .art-yung {
-  // max-width: 50%;
-  // right: 0%;
-  // padding-top: 35% * 0.6;
-
+  max-width: 45%;
+  right: 0%;
+  padding-top: 8%;
+  
   @media #{$medium-and-up} {
-    max-width: 45%;
-    right: 0%;
-    padding-top: 8%;
   }
 }
 

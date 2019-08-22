@@ -1,0 +1,88 @@
+
+.group-bradman {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+
+  .absolute {
+    padding-top: 100%;
+    @media #{$medium-and-up} {
+    }
+  }
+}
+
+/* Elements */
+
+.quote-helo {
+    max-width: 57%;
+    padding-top: 0%;
+    left: 0%;
+
+    @media #{$medium-and-up} {
+    }
+}
+
+.quote-bradman {
+    max-width: 99%;
+    padding-top: 36%;
+    right: 1%;
+
+    @media #{$medium-and-up} {
+    }
+}
+
+.quote-phay {
+    max-width: 30%;
+    padding-top: 26%;
+    left: 16%;
+
+    @media #{$medium-and-up} {
+    }
+}
+
+.quote-ingoodjesst {
+    position: relative;
+    max-width: 85%;
+    margin-top: 63%;
+    margin-right: 49%;
+
+    @media #{$medium-and-up} {
+    }
+}
+
+.art-bradman {
+    max-width: 30%;
+    padding-top: 33%;
+    left: 16%;
+
+    @media #{$medium-and-up} {
+    }
+}
+
+.art-mewdokas {
+    max-width: 30%;
+    padding-top: 28%;
+    right: 16%;
+
+    @media #{$medium-and-up} {
+    }
+}
+
+.art-osidinum {
+    max-width: 31%;
+    padding-top: 0%;
+    right: 0;
+    margin-top: -17%;
+
+    @media #{$medium-and-up} {
+    }
+}
+
+.art-ingoodjesst {
+    max-width: 52%;
+    padding-top: 21%;
+    left: 30%;
+
+    @media #{$medium-and-up} {
+    }
+}
