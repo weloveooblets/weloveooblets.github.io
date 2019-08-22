@@ -9,17 +9,17 @@ TODO: project description & list of contributors, gif, tweet, etc
 
 Development branch with source files and dev/build/deploy scripts:
 
-**prebuild**: `rmdir deploy /s /q`  
-**build**: `parcel build -d deploy src/index.html`  
-**dev**: `parcel -d dist src/index.html`  
-**deploy**: `gh-pages --dist deploy --branch master`
+**prebuild**: `rmdir dist /s /q`  
+**build**: `parcel build -d dist src/index.html`  
+**dev**: `parcel -d dev_build src/index.html`  
+**deploy**: `gh-pages --dist dist --branch master`
 
 `src/` is built using [Parcel](https://parceljs.org/), while styling is additionally compiled with [node-sass](https://github.com/sass/node-sass) and post-processed with [autoprefixer](https://github.com/postcss/autoprefixer).
 
-Development builds are packaged and bundled in `dist/` using `npm run dev` while production builds target `deploy/` with `npm run build`.
+Development builds are packaged and bundled in `dev_build/` using `npm run dev` while production builds target `dist/` with `npm run build`.
 
-Finally, `npm run deploy` will push the latest `deploy/` build into a cleaned master branch, removing any existing files that are no longer present.
+Finally, `npm run deploy` will push the latest `dist/` build into a cleaned master branch, removing any existing files that are no longer present.
 
 # master branch
 
-The live website serving the last production build from `/deploy` of the parcel branch; accordingly, updates are made from the parcel branch `npm run deploy` script, not directly.
+The live website serving the last production build as puhsed from `/dist` of the parcel branch; accordingly, updates are made from the parcel branch `npm run deploy` script, not directly.
