@@ -1,0 +1,41 @@
+.group-danny {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-top: -6%;
+  
+    .absolute {
+      padding-top: 42%;
+      @media #{$medium-and-up} {
+        padding-top: 42%;
+      }
+    }
+  }
+  
+  .art-danny {
+    max-width: 50%;
+    left: -1%;
+    margin-top: 10%;
+  
+    @media #{$medium-and-up} {
+      max-width: 42%;
+      left: 7%;
+      margin-top: 3%;
+    }
+  }
+  
+  .quote-danny {
+  //   max-width: 60%;
+  //   right: 2%;
+  //   margin-top: 15% * 0.6;
+  
+    position: relative;
+    padding-right: 2%;
+    margin-top: 10%;
+    max-width: 60%;
+    margin-bottom: 5%;
+  
+    @media #{$medium-and-up} {
+    }
+  }
+  

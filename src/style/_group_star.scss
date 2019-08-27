@@ -1,0 +1,49 @@
+.group-star {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+
+  .absolute {
+    padding-top: 42%;
+    @media #{$medium-and-up} {
+      padding-top: 42%;
+    }
+  }
+}
+
+.art-star {
+  max-width: 36%;
+  left: -7%;
+  margin-top: -20%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.art-riskypixels {
+  max-width: 32%;
+    right: 7%;
+    margin-top: -6%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.quote-riskypixels {
+    max-width: 44%;
+    left: 16%;
+    margin-top: 8%;
+  @media #{$medium-and-up} {
+  }
+}
+
+//   .quote-riskypixels {
+//     position: relative;
+//     padding-right: 2%;
+//     margin-top: 10%;
+//     max-width: 60%;
+//     margin-bottom: 5%;
+
+//     @media #{$medium-and-up} {
+//     }
+//  }

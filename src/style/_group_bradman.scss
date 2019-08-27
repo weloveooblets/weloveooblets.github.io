@@ -2,7 +2,7 @@
 .group-bradman {
   display: flex;
   flex-flow: row;
-  justify-content: space-between;
+  justify-content: flex-start;
 
   .absolute {
     padding-top: 100%;
@@ -15,17 +15,17 @@
 
 .quote-helo {
     max-width: 57%;
-    padding-top: 0%;
-    left: 0%;
+    margin-top: 0%;
+    left: 2%;
 
     @media #{$medium-and-up} {
     }
 }
 
 .quote-bradman {
-    max-width: 99%;
-    padding-top: 36%;
-    right: 1%;
+    max-width: 50%;
+    margin-top: 47%;
+    left: 10%;
 
     @media #{$medium-and-up} {
     }
@@ -33,36 +33,35 @@
 
 .quote-phay {
     max-width: 30%;
-    padding-top: 26%;
-    left: 16%;
-
-    @media #{$medium-and-up} {
-    }
-}
-
-.quote-ingoodjesst {
-    position: relative;
-    max-width: 85%;
-    margin-top: 63%;
-    margin-right: 49%;
+    margin-top: 29%;
+    right: 2%;
 
     @media #{$medium-and-up} {
     }
 }
 
 .art-bradman {
-    max-width: 30%;
-    padding-top: 33%;
-    left: 16%;
+    max-width: 24%;
+    margin-top: 26%;
+    left: 0;
+    
+    @media #{$medium-and-up} {
+    }
+}
 
+.art-minionsart {
+    max-width: 21%;
+    margin-top: 15%;
+    left: 36%;
+    
     @media #{$medium-and-up} {
     }
 }
 
 .art-mewdokas {
     max-width: 30%;
-    padding-top: 28%;
-    right: 16%;
+    margin-top: 46%;
+    right: 2%;
 
     @media #{$medium-and-up} {
     }
@@ -70,7 +69,7 @@
 
 .art-osidinum {
     max-width: 31%;
-    padding-top: 0%;
+    margin-top: 0%;
     right: 0;
     margin-top: -17%;
 
@@ -79,9 +78,19 @@
 }
 
 .art-ingoodjesst {
-    max-width: 52%;
-    padding-top: 21%;
-    left: 30%;
+    max-width: 40%;
+    margin-top: 54%;
+    left: 0%;
+
+    @media #{$medium-and-up} {
+    }
+}
+
+.quote-ingoodjesst {
+    position: relative;
+    max-width: 42%;
+    margin-top: 72%;
+    margin-left: 30%;
 
     @media #{$medium-and-up} {
     }

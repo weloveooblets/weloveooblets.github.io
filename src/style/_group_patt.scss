@@ -16,31 +16,31 @@
 .art-maddhattpatt {
   max-width: 50%;
   right: -1%;
-  padding-top: 0%;
+  margin-top: 0%;
 
   @media #{$medium-and-up} {
     max-width: 42%;
     right: 7%;
-    padding-top: 0%;
+    margin-top: 0%;
   }
 }
 
 .art-amandine {
   max-width: 50%;
   left: 0%;
-  padding-top: 99% * 0.6;
+  margin-top: 99% * 0.6;
 
   @media #{$medium-and-up} {
     max-width: 45%;
     left: 4%;
-    padding-top: 79% * 0.6;
+    margin-top: 79% * 0.6;
   }
 }
 
 .quote-wakingoni {
   max-width: 60%;
   left: 2%;
-  padding-top: 15% * 0.6;
+  margin-top: 15% * 0.6;
 
   @media #{$medium-and-up} {
   }
@@ -49,18 +49,18 @@
 .art-katie-alpha {
   max-width: 50%;
   left: 0%;
-  padding-top: 35% * 0.6;
+  margin-top: 35% * 0.6;
 
   @media #{$medium-and-up} {
     max-width: 45%;
     left: 5%;
-    padding-top: 15% * 0.6;
+    margin-top: 15% * 0.6;
   }
 }
 
 .quote-amandine {
   // right: 4%;
-  // padding-top: 80% * 0.6;
+  // margin-top: 80% * 0.6;
   // width: 45%;
   // z-index: 1;
   position: relative;

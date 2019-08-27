@@ -16,7 +16,7 @@
 .art-elena {
     max-width: 36%;
     right: 17%;
-    padding-top: 0%;
+    margin-top: 0%;
 
     @media #{$medium-and-up} {
     }
@@ -25,7 +25,6 @@
 .art-bobacupcake {
     max-width: 36%;
     left: 1%;
-    padding-top: 0%;
     margin-top: -15%;
 
     @media #{$medium-and-up} {
@@ -35,7 +34,7 @@
 .quote-elena {
     max-width: 47%;
     right: 5%;
-    padding-top: 37%;
+    margin-top: 37%;
 
     @media #{$medium-and-up} {
     }
@@ -43,8 +42,8 @@
 
 .quote-bobacupcake {
     max-width: 38%;
-    left: 0;
-    padding-top: 12%;
+    left: 2%;
+    margin-top: 12%;
 
     @media #{$medium-and-up} {
     }
@@ -53,7 +52,7 @@
 .art-max {
     max-width: 50%;
     left: -6%;
-    padding-top: 38%;
+    margin-top: 38%;
 
     @media #{$medium-and-up} {
     }

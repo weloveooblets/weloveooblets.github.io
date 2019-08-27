@@ -64,7 +64,7 @@
 .art-zugai {
   max-width: 25%;
   left: -2%;
-  padding-top: 0%;
+  margin-top: 0%;
 
   @media #{$medium-and-up} {
     max-width: 20%;
@@ -74,7 +74,7 @@
 .art-selbs {
   max-width: 13%;
   right: 48%;
-  padding-top: 16%;
+  margin-top: 16%;
 
   @media #{$medium-and-up} {
   }
@@ -83,7 +83,7 @@
 .art-thomas {
   max-width: 21%;
   right: 30%;
-  padding-top: 0%;
+  margin-top: 0%;
   margin-top: -1%;
 
   @media #{$medium-and-up} {
@@ -93,7 +93,7 @@
 .art-boots {
   max-width: 13%;
   left: 34%;
-  padding-top: 36%;
+  margin-top: 36%;
   @media #{$medium-and-up} {
   }
 }
@@ -101,7 +101,7 @@
 .art-phay {
   max-width: 14%;
   left: 26%;
-  padding-top: 35%;
+  margin-top: 35%;
 
   @media #{$medium-and-up} {
   }
@@ -110,7 +110,7 @@
 .art-helo {
 max-width: 40%;
 right: 5%;
-padding-top: 32%;
+margin-top: 32%;
 
   @media #{$medium-and-up} {
   }
@@ -119,16 +119,16 @@ padding-top: 32%;
 .quote-zugai {
   max-width: 25%;
   left: 17%;
-  padding-top: 9%;
+  margin-top: 9%;
 
   @media #{$medium-and-up} {
-    padding-top: 2%;
+    margin-top: 2%;
   }
 }
 
 .quote-selbs {
   max-width: 40%;
-  padding-top: 23%;
+  margin-top: 23%;
   right: 2%;
 
   @media #{$medium-and-up} {
