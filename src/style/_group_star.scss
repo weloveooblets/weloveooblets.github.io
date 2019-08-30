@@ -37,13 +37,22 @@
   }
 }
 
-//   .quote-riskypixels {
-//     position: relative;
-//     padding-right: 2%;
-//     margin-top: 10%;
-//     max-width: 60%;
-//     margin-bottom: 5%;
-
-//     @media #{$medium-and-up} {
-//     }
-//  }
+.art-morten {
+  max-width: 36%;
+  left: 0%;
+  margin-top: 30%;
+  @media #{$medium-and-up} {
+  }
+}
+  
+.quote-brian {
+    position: relative;
+    padding-right: 2%;
+    margin-top: 35%;
+    max-width: 60%;
+    margin-bottom: 2%;
+  
+    @media #{$medium-and-up} {
+    }
+  }
+  

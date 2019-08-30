@@ -1,0 +1,97 @@
+
+.group-kuki {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+
+  .absolute {
+    padding-top: 130%;
+    @media #{$medium-and-up} {
+    }
+  }
+}
+
+/* Elements */
+
+.art-fuzzypear {
+
+    max-width: 34%;
+    margin-top: 8%;
+    right: 3%;
+
+    @media #{$medium-and-up} {
+    }
+}
+
+.art-ryan {
+    max-width: 33%;
+    margin-top: 43%;
+    left: 10%;
+    
+    @media #{$medium-and-up} {
+    }
+}
+
+.quote-kuki {
+    max-width: 41%;
+    margin-top: 27%;
+    left: 11%;
+
+    @media #{$medium-and-up} {
+    }
+}
+
+.quote-ryan {
+    max-width: 52%;
+    margin-top: 59%;
+    left: 44%;
+
+    @media #{$medium-and-up} {
+    }
+}
+
+.quote-esmmazing {
+    position: relative;
+    max-width: 52%;
+    margin-top: 97%;
+    margin-left: 0;
+
+    @media #{$medium-and-up} {
+    }
+}
+
+.art-kuki {
+    max-width: 34%;
+    margin-top: 4%;
+    left: 13%;
+
+    @media #{$medium-and-up} {
+    }
+}
+
+.art-mango {
+    max-width: 30%;
+    margin-top: 95%;
+    right: 8%;
+
+    @media #{$medium-and-up} {
+    }
+}
+
+.art-painterpaw {
+    max-width: 26%;
+    margin-top: 74%;
+    left: 0;
+
+    @media #{$medium-and-up} {
+    }
+}
+
+.art-esmmazing {
+    max-width: 39%;
+    margin-top: 69%;
+    right: 17%;
+
+    @media #{$medium-and-up} {
+    }
+}

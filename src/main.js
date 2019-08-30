@@ -4,11 +4,12 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import './fonts/fonts.css';
 import './style.scss';
 import './style/content.scss';
+
 console.log("[EMIT] Ready");
 
 document.addEventListener('DOMContentLoaded', function () {
   addParallax();
-  addRevealAndTooltips();
+  addReveal();
 });
 
 function addParallax() {
@@ -16,12 +17,13 @@ function addParallax() {
   let instances = M.Parallax.init(els);
 }
 
-function addRevealAndTooltips() {
-  let els = document.querySelectorAll('.tt');
-  let instances = M.Tooltip.init(els, {
-    margin: -30,
-    //position: 'top',
-  });
+function addReveal() {
+  // let els = document.querySelectorAll('.tt');
+  // let instances = M.Tooltip.init(els, {
+  //   margin: 0,
+  //   position: 'bottom',
+  //   transitionMovement: 0,
+  // });
 
   //console.log(ttInstances);
 

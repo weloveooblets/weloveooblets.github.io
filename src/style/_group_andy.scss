@@ -1,0 +1,92 @@
+.group-andy {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+
+  .absolute {
+    padding-top: 100%;
+    @media #{$medium-and-up} {
+    }
+  }
+}
+
+/* Elements */
+
+.art-lowpolycurls {
+  //   max-width: 24%;
+  //   margin-top: 26%;
+  //   left: 0;
+
+  max-width: 34%;
+  margin-top: 45%;
+  right: 2%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.art-fiction {
+  max-width: 23%;
+  margin-top: -16%;
+  left: 4%;
+  @media #{$medium-and-up} {
+  }
+}
+
+.quote-andy {
+  max-width: 57%;
+  margin-top: 0%;
+  right: 15%;
+  @media #{$medium-and-up} {
+  }
+}
+
+.quote-heskhwis {
+  max-width: 50%;
+  margin-top: 40%;
+  left: 10%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.quote-lowpolycurls {
+  position: relative;
+  max-width: 40%;
+  margin-top: 78%;
+  margin-left: 30%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.art-andy {
+  //   max-width: 30%;
+  //   margin-top: 46%;
+  //   right: 2%;
+
+  max-width: 24%;
+  margin-top: -8%;
+  right: -3%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.art-heskhwis {
+  max-width: 31%;
+  right: 20%;
+  margin-top: 15%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.art-honeyxilia {
+  max-width: 40%;
+  margin-top: 54%;
+  left: 0%;
+
+  @media #{$medium-and-up} {
+  }
+}

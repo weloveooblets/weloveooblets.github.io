@@ -7,6 +7,9 @@ verify_ssl = true
 
 [packages]
 faker = "*"
+pyscss = "*"
+scss = "*"
+pyparsing = "*"
 
 [requires]
 python_version = "3.7"

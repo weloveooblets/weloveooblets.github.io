@@ -9,7 +9,7 @@ body {
   font-size: 14px;
   line-height: 1.5;
   background-color: $primary;
-  background-color: black;
+  background-color: white;
 }
 
 .section {
@@ -196,8 +196,8 @@ blockquote {
   }
 
   @media #{$large-and-up} {
-    margin: 20px 0;
     font-size: 16px;
+    margin: 20px 0;
     padding-left: 32px;
     padding-top: 5px;
   }
@@ -285,4 +285,36 @@ blockquote {
       //color: darken(#BFE8E4, 20%);
     }
   }
+}
+
+[class*=hint--] {
+
+  &:before {
+    content: none;
+  }
+
+  &:after {
+    background: #323232;
+    color: #fff;
+    padding: 8px 10px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border-radius: 2px;
+    box-shadow: none;
+    text-shadow: none;
+    white-space: normal;
+  }
+}
+
+
+$hintOffset: -40;
+$hintShift: 8;
+
+.hint--bottom:after {
+  transform: translateX(-50%) translateY($hintOffset + px);
+}
+
+.hint--bottom:hover:after {
+  transform: translateX(-50%) translateY(($hintOffset + $hintShift) + px);
 }
