@@ -24,20 +24,16 @@ Element = namedtuple('Element', fields, defaults=('', ART, None, ABSOLUTE, None,
 
 
 quotes = {
-    'esmmazing': 'Ooblets are like the parents of wholesome indie games. Thanks for inspiring so many people <3',
-    'kuki': "People always talks nasty stuff but don't worry we are with you!",
-    'ryan': "Your work is really inspiring to many indie devs out there, including myself, and we all can't wait to play the final release, and to be even more inspired! Ooblets is super rad, keep it up!",
+    'dreamnomming': "Angry people suck, especially people who just want to get angry to join a bandwagon. Though, no matter how much hate or anger is directed at you, remember that you have a lot of people backing you up and hoping for the best and success in the completion of Ooblets!",
+    'quail': "Much love to y'all for everything you've put into the game and the dev community, can't wait to play Ooblets when it's finished!",
+    'puppies': "I love you guys so much! its amazing all you've done for this community and for your game. I've enjoyed every minute on your discord and love how down to earth you guys are. Good luck with your game and cant wait to be able to have a copy of my own!  You guys are awesome!",
 }
 
 elements = [
-    Element(name='lowpolycurls', t=ART, fn='lowpolycurls.png'),
-    Element(name='fiction', t=ART, fn='fiction.png'),
-    Element(name='andy', t=QUOTE),
-    Element(name='heskhwis', t=QUOTE),
-    Element(name='lowpolycurls', t=QUOTE, position=RELATIVE),
-    Element(name='andy', t=ART, fn='andy_alpha.png'),
-    Element(name='heskhwis', t=ART, fn='heskhwis_alpha.png'),
-    Element(name='honeyxilia', t=ART, fn='honeyxilia_alpha.png'),
+    Element(name='quail', t=QUOTE),
+    Element(name='dreamnomming', t=QUOTE),
+    Element(name='puppies', t=QUOTE, position=RELATIVE),
+    Element(name='silkira', t=ART, fn='silkira_alpha.png'),
 ]
 
 fake = Faker()
@@ -50,40 +46,6 @@ def load_as_templates(file):
     with open(file) as f:
         content = f.read()
     
-
-    # print(enclosed.parseString(content).asList())
-
-    # print(content)
-    # parse = nestedExpr('{','}').parseString(content).asList()
-    # print(parse)
-
-
-    # print(content)
-    # print('\n\n==========\n\n')
-    
-    # rules = re.findall(r'\.(art|quote)-.+?{((?!.*(?:\.art|\.quote)).*)}', content, flags=re.DOTALL | re.MULTILINE)
-    # pprint(rules)
-    # print(len(rules[0]))
-    
-
-    # print(rules[0][1])
-
-
-    # for m in re.finditer(r'\.(art|quote)-.+?{((?!.*(?:\.art|\.quote)).*?)}', content, flags=re.DOTALL | re.MULTILINE):
-    #     print('[Match]')
-    #     print(m)
-    
-    # sheet = cssutils.praseFile(file):
-    # print(sheet)
-    # for rule in sheet:
-    #     selector = rule.selectorText
-    #     styles = rule.style.cssText
-    #     dct[selector] = styles
-
-    # parser = SassExpression(SassExpressionScanner(content))
-    # parser.
-
-
     for _, classdef, style in locate_blocks(content):
         if '.art-' in classdef:
             arts.append(style)
@@ -100,7 +62,7 @@ def load_as_templates(file):
 
 
 
-def make_group(groupName, elements, randomize=False, copyFrom=None, writeCssTo=None, spacing=20):
+def make_group(groupName, elements, randomize=False, copyFrom=None, addExtras=False, writeCssTo=None, spacing=20):
     css = [f'''
 .group-{groupName} {{
   display: flex;
@@ -201,6 +163,9 @@ def make_group(groupName, elements, randomize=False, copyFrom=None, writeCssTo=N
                     pass
             
             if not copied:
+                if not addExtras:
+                    print("Ran out of elements")
+                    return
                 rules = f'''
     max-width: {width}%;
     margin-top: {top}%;
@@ -250,8 +215,8 @@ def make_group(groupName, elements, randomize=False, copyFrom=None, writeCssTo=N
             f.write(css)
 
 
-ref = os.path.join(os.path.dirname(__file__), '../src/style/_group_kuki.scss')
-cssFile = os.path.join(os.path.dirname(__file__), '../src/style/_group_andy.scss')
-make_group('andy', elements, randomize=True, writeCssTo=cssFile, copyFrom=ref)
+ref = os.path.join(os.path.dirname(__file__), '../src/style/_group_patt.scss')
+cssFile = os.path.join(os.path.dirname(__file__), '../src/style/_group_silkira.scss')
+make_group('silkira', elements, randomize=True, writeCssTo=cssFile, copyFrom=ref, addExtras=True)
 
 

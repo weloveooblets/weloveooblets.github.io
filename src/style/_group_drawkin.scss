@@ -1,0 +1,95 @@
+.group-drawkin {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+
+  .absolute {
+    padding-top: 100%;
+    @media #{$medium-and-up} {
+    }
+  }
+}
+
+/* Elements */
+
+.art-drawkin {
+  max-width: 37%;
+  margin-top: -10%;
+  left: 3%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.art-bree {
+  max-width: 22%;
+  margin-top: 64%;
+  left: -1%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.quote-drawkin {
+  max-width: 41%;
+  margin-top: 27%;
+  left: 2%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.quote-eightm {
+  max-width: 52%;
+  margin-top: 59%;
+  right: 15%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.quote-bree {
+  position: relative;
+  max-width: 52%;
+  margin-top: 94%;
+  margin-left: 2%;
+  
+  @media #{$medium-and-up} {
+  }
+}
+
+.art-brokenbird {
+  max-width: 39%;
+  margin-top: 4%;
+  right: 9%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.art-primillirose {
+  max-width: 34%;
+  margin-top: 75%;
+  right: 6%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.art-static {
+  max-width: 31%;
+  margin-top: 32%;
+  left: 12%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.art-eightm {
+  max-width: 39%;
+  margin-top: 46%;
+  right: 7%;
+
+  @media #{$medium-and-up} {
+  }
+}

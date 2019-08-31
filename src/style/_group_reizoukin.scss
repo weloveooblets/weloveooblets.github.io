@@ -1,0 +1,98 @@
+.group-reizoukin {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-top: 17%;
+
+  .absolute {
+    padding-top: 100%;
+    @media #{$medium-and-up} {
+    }
+  }
+}
+
+/* Elements */
+
+.art-snowyowl {
+    max-width: 37%;
+    right: 10.5%;
+    margin-top: -6%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.art-eryn {
+  max-width: 36%;
+  left: 1%;
+  margin-top: -15%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.quote-reizoukin {
+//   max-width: 47%;
+//   right: 5%;
+//   margin-top: 37%;
+
+  max-width: 38%;
+  left: 2%;
+  margin-top: 12%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.quote-snowyowl {
+//   max-width: 38%;
+//   left: 2%;
+//   margin-top: 12%;
+
+  max-width: 47%;
+  right: 5%;
+  margin-top: 37%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.quote-emmyshuno {
+  position: relative;
+  max-width: 39%;
+  margin-right: 27%;
+  margin-top: 61%;
+
+  @media #{$medium-and-up} {
+  }
+}
+
+.art-reizoukin {
+//   max-width: 21%;
+//   margin-top: 55%;
+//   right: 10%;
+
+//   max-width: 36%;
+//   right: 17%;
+//   margin-top: 0%;
+
+  max-width: 39%;
+left: 4%;
+margin-top: -12%;
+
+}
+
+.art-emmyshuno {
+//   max-width: 34%;
+//   margin-top: 42%;
+//   left: 43%;
+
+//   max-width: 50%;
+//   left: -6%;
+//   margin-top: 38%;
+
+  max-width: 31%;
+  left: -2%;
+  margin-top: 49%;
+
+}
