@@ -1,4 +1,3 @@
-
 .group-max {
   display: flex;
   flex-flow: row;
@@ -14,56 +13,79 @@
 /* Elements */
 
 .art-elena {
+  max-width: 45%;
+  right: 0%;
+  margin-top: 55%;
+
+  @media #{$medium-and-up} {
     max-width: 36%;
     right: 17%;
     margin-top: 0%;
-
-    @media #{$medium-and-up} {
-    }
+  }
 }
 
 .art-bobacupcake {
+  max-width: 48%;
+  left: -3%;
+  margin-top: -14%;
+
+  @media #{$medium-and-up} {
     max-width: 36%;
     left: 1%;
     margin-top: -15%;
-
-    @media #{$medium-and-up} {
-    }
+  }
 }
 
 .quote-elena {
+  max-width: 58%;
+  left: 5%;
+  margin-top: 58%;
+
+  @media #{$medium-and-up} {
+    left: initial;
     max-width: 47%;
     right: 5%;
     margin-top: 37%;
-
-    @media #{$medium-and-up} {
-    }
+  }
 }
 
 .quote-bobacupcake {
+  max-width: 63%;
+  right: 2%;
+  margin-top: 2%;
+
+  @media #{$medium-and-up} {
+    right: initial;
     max-width: 38%;
     left: 2%;
     margin-top: 12%;
-
-    @media #{$medium-and-up} {
-    }
+  }
 }
 
 .art-max {
+  max-width: 52%;
+  left: -11%;
+  margin-top: 103%;
+
+  @media #{$medium-and-up} {
     max-width: 50%;
     left: -6%;
     margin-top: 38%;
-
-    @media #{$medium-and-up} {
-    }
+  }
 }
 
 .quote-max {
+  position: relative;
+  max-width: 58%;
+  margin-right: 11%;
+  margin-top: 113%;
+  margin-bottom: 10%;
+
+  @media #{$medium-and-up} {
     position: relative;
     max-width: 39%;
     margin-right: 27%;
     margin-top: 61%;
-
-    @media #{$medium-and-up} {
-    }
+    margin-bottom: 0%;
+  }
 }

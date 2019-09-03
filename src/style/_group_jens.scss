@@ -11,20 +11,27 @@
 }
 
 .art-wakingoni {
-  max-width: 37%;
-  left: -2%;
-  margin-top: 13%;
+  max-width: 41%;
+  left: 0%;
+  margin-top: 40%;
 
   @media #{$medium-and-up} {
+    max-width: 37%;
+    left: -2%;
+    margin-top: 13%;
   }
 }
 
 .art-jens {
-  max-width: 31%;
-  left: 32%;
-  margin-top: 25%;
+  max-width: 36%;
+  right: 22%;
+  margin-top: 47%;
 
   @media #{$medium-and-up} {
+    right: initial;
+    max-width: 31%;
+    left: 32%;
+    margin-top: 25%;
   }
 }
 
@@ -39,22 +46,26 @@
 }
 
 .art-yung {
-  max-width: 45%;
-  right: 0%;
+  max-width: 50%;
+  right: -5%;
   margin-top: 8%;
-  
+
   @media #{$medium-and-up} {
+    max-width: 45%;
+    right: 0%;
+    margin-top: 8%;
   }
 }
 
-
-
 .art-dbar {
-  max-width: 14%;
-  left: 10%;
-  margin-top: 53%;
+  max-width: 17%;
+  left: 9%;
+  margin-top: 100%;
 
   @media #{$medium-and-up} {
+    max-width: 14%;
+    left: 10%;
+    margin-top: 53%;
   }
 }
 
@@ -65,11 +76,13 @@
   // z-index: 1;
   position: relative;
   padding-right: 4%;
-  margin-top: 48.5%;
-  max-width: 49%;
   margin-bottom: 5%;
-  // align-self: flex-end;
+
+  margin-top: 84.5%;
+  max-width: 65%;
 
   @media #{$medium-and-up} {
+    margin-top: 48.5%;
+    max-width: 49%;
   }
 }

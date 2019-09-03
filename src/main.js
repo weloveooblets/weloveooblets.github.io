@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function addParallax() {
   let els = document.querySelectorAll('.parallax');
-  let instances = M.Parallax.init(els);
+  let instances = M.Parallax.init(els, {responsiveThreshold: 0});
 }
 
 function addReveal() {

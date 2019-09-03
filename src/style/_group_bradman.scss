@@ -1,4 +1,3 @@
-
 .group-bradman {
   display: flex;
   flex-flow: row;
@@ -14,84 +13,107 @@
 /* Elements */
 
 .quote-helo {
+  max-width: 58%;
+  margin-top: 0%;
+  left: 2%;
+
+  @media #{$medium-and-up} {
     max-width: 57%;
     margin-top: 0%;
     left: 2%;
-
-    @media #{$medium-and-up} {
-    }
+  }
 }
 
 .quote-bradman {
+  max-width: 62%;
+  margin-top: 70% + 2%;
+  left: 9%;
+
+  @media #{$medium-and-up} {
     max-width: 50%;
     margin-top: 47%;
     left: 10%;
-
-    @media #{$medium-and-up} {
-    }
+  }
 }
 
 .quote-phay {
+  max-width: 30%;
+  margin-top: 26%;
+  right: 2%;
+
+  @media #{$medium-and-up} {
     max-width: 30%;
     margin-top: 29%;
     right: 2%;
-
-    @media #{$medium-and-up} {
-    }
+  }
 }
 
 .art-bradman {
+  max-width: 27%;
+  margin-top: 48% + 2%;
+  left: 0;
+
+  @media #{$medium-and-up} {
     max-width: 24%;
     margin-top: 26%;
     left: 0;
-    
-    @media #{$medium-and-up} {
-    }
+  }
 }
 
 .art-minionsart {
+  max-width: 24%;
+  margin-top: 39%;
+  left: 44%;
+
+  @media #{$medium-and-up} {
     max-width: 21%;
     margin-top: 15%;
     left: 36%;
-    
-    @media #{$medium-and-up} {
-    }
+  }
 }
 
 .art-mewdokas {
+  max-width: 35%;
+  margin-top: 65%;
+  right: -2%;
+
+  @media #{$medium-and-up} {
     max-width: 30%;
     margin-top: 46%;
     right: 2%;
-
-    @media #{$medium-and-up} {
-    }
+  }
 }
 
 .art-osidinum {
-    max-width: 31%;
-    margin-top: 0%;
-    right: 0;
-    margin-top: -17%;
+  max-width: 31%;
+  right: 0;
+  margin-top: -17%;
 
-    @media #{$medium-and-up} {
-    }
+  @media #{$medium-and-up} {
+  }
 }
 
 .art-ingoodjesst {
+  max-width: 45%;
+  margin-top: 92% + 2%;
+  left: 1.5%;
+
+  @media #{$medium-and-up} {
     max-width: 40%;
     margin-top: 54%;
     left: 0%;
-
-    @media #{$medium-and-up} {
-    }
+  }
 }
 
 .quote-ingoodjesst {
-    position: relative;
+  position: relative;
+  max-width: 58%;
+  margin-top: 118%;
+  margin-left: 30%;
+
+  @media #{$medium-and-up} {
     max-width: 42%;
     margin-top: 72%;
     margin-left: 30%;
-
-    @media #{$medium-and-up} {
-    }
+  }
 }
