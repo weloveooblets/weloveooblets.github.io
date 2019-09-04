@@ -21,6 +21,8 @@ Development builds are packaged and bundled in `dev_build/` using `npm run dev` 
 
 Finally, `npm run deploy` will push the latest `dist/` build into a cleaned master branch, removing any existing files that are no longer present.
 
+Because making HTML and CSS content groups became extremely tedious, there's a helper script for generating them in `concept/generate_group.py`!
+
 # master branch
 
 The live website serving the last production build as puhsed from `/dist` of the parcel branch; accordingly, updates are made from the parcel branch `npm run deploy` script, not directly.
