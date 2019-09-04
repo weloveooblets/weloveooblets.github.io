@@ -10,11 +10,18 @@ console.log("[EMIT] Ready");
 document.addEventListener('DOMContentLoaded', function () {
   addParallax();
   addReveal();
+
+  document.querySelector('#top').addEventListener('click', backToTop);
 });
 
 function addParallax() {
   let els = document.querySelectorAll('.parallax');
   let instances = M.Parallax.init(els, { responsiveThreshold: 0 });
+}
+
+function backToTop() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
 function addReveal() {

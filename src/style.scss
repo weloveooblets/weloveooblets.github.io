@@ -1,6 +1,7 @@
 @import "style/common";
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -61,6 +62,7 @@ ul {
 }
 
 a {
+  color: initial;
 }
 
 .nobreak {
@@ -82,6 +84,43 @@ b {
   font-weight: 700;
 }
 
+button {
+  padding: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+    background-color: initial;
+  }
+}
+
+.nav {
+  // margin: 0 auto;
+  // max-width: 1280px;
+
+  display: flex;
+  justify-content: space-around;
+  font-family: $fontstack;
+  color: white;
+
+  margin-left: auto;
+  max-width: 360px;
+
+  .fa-paint-brush {
+    margin-right: 12px;
+  }
+
+  a {
+    color: white;
+    color: #434343;
+  }
+}
+
 .parallax img {
   // transition: transform 0.1s ease-out;
 }
@@ -97,11 +136,20 @@ b {
   }
 
   h1 {
-    width: 300px;
     text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
     font-weight: 600;
-    font-size: 88px;
-    margin: 30px 0 0 0;
+    margin: 20px 0 0 0;
+    width: 270px;
+    font-size: 75px;
+
+    @media #{$w375-and-up} {
+      width: 300px;
+      font-size: 88px;
+    }
+
+    @media #{$medium-and-up} {
+      margin: 30px 0 0 0;
+    }
   }
 
   .secondary {
@@ -109,12 +157,13 @@ b {
     color: #ffffff;
     width: auto;
     display: inline-block;
-    font-size: 25px;
+    font-size: 24px;
     font-family: "Lato", $fontstack;
     margin-top: 10px;
 
     @media #{$medium-and-up} {
       margin-top: 20px;
+      font-size: 25px;
     }
   }
 
@@ -307,7 +356,6 @@ blockquote {
     margin-top: 0px;
     font-size: 14px;
 
-
     @media #{$w400-and-up} {
       font-size: 16px;
     }
@@ -373,6 +421,7 @@ $hintShift: 8;
   }
 
   .wrapper {
+    position: relative;
     padding-top: 50px;
     padding-bottom: 100px;
     width: 1000px;
@@ -386,7 +435,7 @@ $hintShift: 8;
     }
 
     ul {
-      columns: 220px
+      columns: 220px;
     }
   }
 
@@ -404,12 +453,12 @@ $hintShift: 8;
     }
     .fa-twitter {
       margin-left: 6px;
-      color: #1DA1F2;
+      color: #1da1f2;
     }
 
     .fa-instagram {
       margin-left: 6px;
-      color: #AF368A;
+      color: #af368a;
     }
   }
 }
@@ -426,7 +475,7 @@ $hintShift: 8;
     justify-content: center;
     height: 100%;
     font-size: 46px;
-    
+
     @media #{$medium-and-up} {
       font-size: 80px;
     }
@@ -440,4 +489,12 @@ $hintShift: 8;
       color: #febebe;
     }
   }
+}
+
+#top {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 45px;
+  right: 20px;
 }

@@ -1,7 +1,8 @@
 # weloveooblets.github.io
 
-we 🖤 ooblets  
-TODO: project description & list of contributors, gif, tweet, etc
+we 🖤 ooblets
+
+If you have any questions on the site or how to build something similar, join us in the [Wholesome Games discord](https://discord.gg/JjjBSz9) and ask for jacob!
 
 [gh-pages](https://pages.github.com/) publishes organization pages directly from the root of the master branch (with no option to do otherwise), so the project is divided into two branches accordingly:
 
