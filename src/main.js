@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function addParallax() {
   let els = document.querySelectorAll('.parallax');
-  let instances = M.Parallax.init(els, {responsiveThreshold: 0});
+  let instances = M.Parallax.init(els, { responsiveThreshold: 0 });
 }
 
 function addReveal() {
@@ -45,7 +45,17 @@ function addReveal() {
 
   // ScrollReveal().reveal(els, { afterReveal: onReveal, viewFactor: viewFactor });
   // ScrollReveal().reveal(document.querySelectorAll('.quote-wrapper'), { viewFactor: viewFactor });
-
-  ScrollReveal().reveal(document.querySelectorAll('.art-wrapper, .quote-wrapper'), { viewFactor: viewFactor, reset: reset });
+  ScrollReveal.debug = true;
+  ScrollReveal().reveal(document.querySelectorAll('.art-wrapper, .quote-wrapper'),
+    {
+      viewFactor: viewFactor,
+      reset: reset,
+      viewOffset: {
+        top: 0,
+        right: -200,
+        bottom: 0,
+        left: -200,
+      }
+    });
 
 }

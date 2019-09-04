@@ -18,25 +18,34 @@
   margin-top: 9%;
 
   @media #{$medium-and-up} {
+    max-width: 58%;
+    left: 2%;
+    margin-top: 9%;
   }
 }
 
 .quote-dreamnomming {
   position: relative;
   margin-left: 2%;
-  margin-top: 79%;
-  max-width: 57%;
+  margin-top: 133%;
+  max-width: 69%;
 
   @media #{$medium-and-up} {
+    margin-left: 2%;
+    margin-top: 79%;
+    max-width: 57%;
   }
 }
 
 .quote-puppies {
   right: 4%;
-  margin-top: 48.5%;
-  max-width: 49%;
+  margin-top: 57%;
+  max-width: 56%;
 
   @media #{$medium-and-up} {
+    right: 4%;
+    margin-top: 48.5%;
+    max-width: 49%;
   }
 }
 
@@ -46,10 +55,13 @@
   // margin-top: 0%;
 
   max-width: 47%;
-  left: 7%;
-  margin-top: 16%;
+  left: 0%;
+  margin-top: 45%;
 
   @media #{$medium-and-up} {
+    max-width: 47%;
+    left: 7%;
+    margin-top: 16%;
   }
 }
 
@@ -59,14 +71,20 @@
   margin-top: 3%;
 
   @media #{$medium-and-up} {
+    max-width: 40%;
+    right: 0%;
+    margin-top: 3%;
   }
 }
 
 .art-paranoodles {
-  max-width: 25%;
-  right: 11%;
-  margin-top: 69%;
+  max-width: 30%;
+  right: 1%;
+  margin-top: 140%;
 
   @media #{$medium-and-up} {
+    max-width: 25%;
+    right: 11%;
+    margin-top: 69%;
   }
 }

@@ -14,11 +14,14 @@
 /* Elements */
 
 .art-snowyowl {
-  max-width: 37%;
-  right: 10.5%;
-  margin-top: -6%;
+  max-width: 40%;
+  right: 3%;
+  margin-top: -2%;
 
   @media #{$medium-and-up} {
+    max-width: 37%;
+    right: 10.5%;
+    margin-top: -6%;
   }
 }
 
@@ -27,11 +30,14 @@
   //   right: 5%;
   //   margin-top: 37%;
 
-  max-width: 38%;
+  max-width: 53%;
   left: 2%;
   margin-top: 12%;
 
   @media #{$medium-and-up} {
+    max-width: 38%;
+    left: 2%;
+    margin-top: 12%;
   }
 }
 
@@ -40,21 +46,27 @@
   //   left: 2%;
   //   margin-top: 12%;
 
-  max-width: 47%;
-  right: 5%;
-  margin-top: 37%;
+  max-width: 63%;
+  right: 4%;
+  margin-top: 52%;
 
   @media #{$medium-and-up} {
+    max-width: 47%;
+    right: 5%;
+    margin-top: 37%;
   }
 }
 
 .quote-emmyshuno {
   position: relative;
-  max-width: 39%;
-  margin-right: 27%;
-  margin-top: 61%;
+  max-width: 55%;
+  margin-right: 7%;
+  margin-top: 104%;
 
   @media #{$medium-and-up} {
+    max-width: 39%;
+    margin-right: 27%;
+    margin-top: 61%;
   }
 }
 
@@ -67,15 +79,27 @@
   //   right: 17%;
   //   margin-top: 0%;
 
-  max-width: 39%;
-  left: 4%;
-  margin-top: -12%;
+  max-width: 46%;
+  left: 6%;
+  margin-top: -14%;
+
+  @media #{$medium-and-up} {
+    max-width: 39%;
+    left: 4%;
+    margin-top: -12%;
+  }
 }
 
 .art-tooki {
-  max-width: 31%;
-  left: 14%;
-  margin-top: 26%;
+  max-width: 35%;
+  left: 0%;
+  margin-top: 44%;
+
+  @media #{$medium-and-up} {
+    max-width: 31%;
+    left: 14%;
+    margin-top: 26%;
+  }
 }
 
 .art-emmyshuno {
@@ -87,7 +111,13 @@
   //   left: -6%;
   //   margin-top: 38%;
 
-  max-width: 28%;
-  left: -2%;
-  margin-top: 52%;
+  max-width: 34%;
+  left: 1%;
+  margin-top: 110%;
+
+  @media #{$medium-and-up} {
+    max-width: 28%;
+    left: -2%;
+    margin-top: 52%;
+  }
 }

@@ -6,53 +6,69 @@
   .absolute {
     padding-top: 42%;
     @media #{$medium-and-up} {
-      padding-top: 42%;
     }
   }
 }
 
 .art-star {
-  max-width: 36%;
-  left: -7%;
-  margin-top: -20%;
+  max-width: 43%;
+  left: -11%;
+  margin-top: -25%;
 
   @media #{$medium-and-up} {
+    max-width: 36%;
+    left: -7%;
+    margin-top: -20%;
   }
 }
 
 .art-riskypixels {
   max-width: 32%;
-    right: 7%;
-    margin-top: -6%;
+  right: -2%;
+  margin-top: -3%;
 
   @media #{$medium-and-up} {
+    max-width: 32%;
+    right: 7%;
+    margin-top: -6%;
   }
 }
 
 .quote-riskypixels {
+  max-width: 61%;
+  left: 17%;
+  margin-top: -2%;
+
+  @media #{$medium-and-up} {
     max-width: 44%;
     left: 16%;
     margin-top: 8%;
-  @media #{$medium-and-up} {
   }
 }
 
 .art-morten {
-  max-width: 36%;
-  left: 0%;
-  margin-top: 30%;
+  max-width: 48%;
+  left: -8%;
+  margin-top: 53%;
+
   @media #{$medium-and-up} {
+    max-width: 36%;
+    left: 0%;
+    margin-top: 30%;
   }
 }
-  
+
 .quote-brian {
-    position: relative;
+  position: relative;
+  padding-right: 3%;
+  margin-top: 50%;
+  max-width: 67%;
+  margin-bottom: 2%;
+
+  @media #{$medium-and-up} {
     padding-right: 2%;
     margin-top: 35%;
     max-width: 60%;
     margin-bottom: 2%;
-  
-    @media #{$medium-and-up} {
-    }
   }
-  
+}

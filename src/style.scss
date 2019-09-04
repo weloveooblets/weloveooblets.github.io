@@ -206,12 +206,18 @@ blockquote {
   // padding-left: 12px;
   // padding-right: 10px;
   // padding-top: 18px;
-
-  padding-left: 12px;
+  line-height: 1.4;
+  padding-left: 11px;
   padding-right: 10px;
   padding-top: 0px;
 
+  @media #{$w375-and-up} {
+    line-height: 1.5;
+    font-size: 12px;
+  }
+
   @media #{$w400-and-up} {
+    line-height: 1.5;
     font-size: 14px;
     padding-left: 32px;
     padding-top: 5px;
@@ -219,6 +225,7 @@ blockquote {
   }
 
   @media #{$large-and-up} {
+    line-height: 1.5;
     font-size: 16px;
     margin: 20px 0;
     padding-left: 32px;
@@ -298,7 +305,12 @@ blockquote {
 
     margin-left: 0px;
     margin-top: 0px;
-    font-size: 16px;
+    font-size: 14px;
+
+
+    @media #{$w400-and-up} {
+      font-size: 16px;
+    }
 
     @media #{$large-and-up} {
       margin-top: 5px;

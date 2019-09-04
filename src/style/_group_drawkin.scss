@@ -13,29 +13,38 @@
 /* Elements */
 
 .art-drawkin {
-  max-width: 37%;
-  margin-top: -10%;
-  left: 3%;
+  max-width: 39%;
+  margin-top: -22%;
+  left: -3%;
 
   @media #{$medium-and-up} {
+    max-width: 37%;
+    margin-top: -10%;
+    left: 3%;
   }
 }
 
 .art-bree {
-  max-width: 22%;
-  margin-top: 64%;
-  left: -1%;
+  max-width: 24%;
+  margin-top: 76%;
+  left: 10%;
 
   @media #{$medium-and-up} {
+    max-width: 22%;
+    margin-top: 64%;
+    left: -1%;
   }
 }
 
 .quote-drawkin {
-  max-width: 41%;
-  margin-top: 27%;
+  max-width: 72%;
+  margin-top: 17%;
   left: 2%;
 
   @media #{$medium-and-up} {
+    max-width: 41%;
+    margin-top: 27%;
+    left: 2%;
   }
 }
 
@@ -45,25 +54,34 @@
   right: 15%;
 
   @media #{$medium-and-up} {
+    max-width: 52%;
+    margin-top: 59%;
+    right: 15%;
   }
 }
 
 .quote-bree {
   position: relative;
-  max-width: 52%;
-  margin-top: 94%;
-  margin-left: 2%;
-  
+  max-width: 90%;
+  margin-top: 111%;
+  margin-left: 4%;
+
   @media #{$medium-and-up} {
+    max-width: 52%;
+    margin-top: 94%;
+    margin-left: 2%;
   }
 }
 
 .art-brokenbird {
   max-width: 39%;
   margin-top: 4%;
-  right: 9%;
+  right: -1%;
 
   @media #{$medium-and-up} {
+    max-width: 39%;
+    margin-top: 4%;
+    right: 9%;
   }
 }
 
@@ -73,23 +91,32 @@
   right: 6%;
 
   @media #{$medium-and-up} {
+    max-width: 34%;
+    margin-top: 75%;
+    right: 6%;
   }
 }
 
 .art-static {
-  max-width: 31%;
-  margin-top: 32%;
-  left: 12%;
+  max-width: 33%;
+  margin-top: 35%;
+  left: 0%;
 
   @media #{$medium-and-up} {
+    max-width: 31%;
+    margin-top: 32%;
+    left: 12%;
   }
 }
 
 .art-eightm {
-  max-width: 39%;
-  margin-top: 46%;
-  right: 7%;
+  max-width: 29%;
+  margin-top: 45%;
+  right: 4%;
 
   @media #{$medium-and-up} {
+    max-width: 39%;
+    margin-top: 46%;
+    right: 7%;
   }
 }

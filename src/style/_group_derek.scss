@@ -1,85 +1,102 @@
 .group-derek {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
   //   margin-top: 20px;
   //   border-top: 1px solid black;
-  
-    .absolute {
-      padding-top: 110%;
-      @media #{$medium-and-up} {
-        padding-top: 90%;
-      }
+
+  @media #{$medium-and-up} {
+    justify-content: space-between;
+  }
+
+  .absolute {
+    padding-top: 110%;
+    @media #{$medium-and-up} {
+      padding-top: 90%;
     }
   }
-  
-  .art-derek {
-    max-width: 50%;
-    right: -1%;
+}
+
+.art-derek {
+  max-width: 36%;
+  left: 1%;
+  margin-top: -3%;
+
+  @media #{$medium-and-up} {
+    left: initial;
+    max-width: 42%;
+    right: 7%;
     margin-top: -16%;
-  
-    @media #{$medium-and-up} {
-      max-width: 42%;
-      right: 7%;
-      margin-top: -16%;
-    }
   }
-  
-  .art-subliminalman {
-    max-width: 50%;
-    left: 12%;
-    margin-top: 99% * 0.6;
-  
-    @media #{$medium-and-up} {
-      max-width: 45%;
-      left: 16%;
-      margin-top: 59%;
-    }
+}
+
+.art-subliminalman {
+  max-width: 50%;
+  right: -7%;
+  margin-top: 66%;
+
+  @media #{$medium-and-up} {
+    left: initial;
+    max-width: 45%;
+    left: 16%;
+    margin-top: 59%;
   }
-  
-  .quote-derek {
+}
+
+.quote-derek {
+  max-width: 60%;
+  right: 2%;
+  margin-top: 5%;
+
+  @media #{$medium-and-up} {
+    right: initial;
     max-width: 60%;
     left: 2%;
     margin-top: 5%;
-  
-    @media #{$medium-and-up} {
-    }
   }
-  
-  .art-olivia {
-    max-width: 50%;
-    left: 0%;
-    margin-top: 35% * 0.6;
-  
-    @media #{$medium-and-up} {
-      max-width: 45%;
-      left: 5%;
-      margin-top: 14%;
-    }
-  }
+}
 
-  .art-erik {
+.art-olivia {
+  max-width: 45%;
+  right: 5%;
+  margin-top: 25%;
+
+  @media #{$medium-and-up} {
+    right: initial;
+    max-width: 45%;
+    left: 5%;
+    margin-top: 14%;
+  }
+}
+
+.art-erik {
+  max-width: 33%;
+  left: 14%;
+  margin-top: 36.5%;
+
+  @media #{$medium-and-up} {
+    left: initial;
     max-width: 31%;
     right: 4%;
     margin-top: 34%;
-  
-    @media #{$medium-and-up} {
-    }
   }
-  
-  .quote-subliminalman {
-    // right: 4%;
-    // margin-top: 80% * 0.6;
-    // width: 45%;
-    // z-index: 1;
-    position: relative;
-    padding-right: 4%;
-    margin-top: 68%;
+}
+
+.quote-subliminalman {
+  // right: 4%;
+  // margin-top: 80% * 0.6;
+  // width: 45%;
+  // z-index: 1;
+  position: relative;
+  padding-right: 4%;
+  margin-top: 68%;
+  max-width: 66%;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  // align-self: flex-end;
+
+  @media #{$medium-and-up} {
+    margin-left: inherit;
     max-width: 49%;
-    margin-bottom: 5%;
-    // align-self: flex-end;
-  
-    @media #{$medium-and-up} {
-    }
   }
-  
+}

@@ -17,46 +17,64 @@
   //   margin-top: 26%;
   //   left: 0;
 
-  max-width: 34%;
-  margin-top: 45%;
-  right: 2%;
-
+  max-width: 39%;
+  margin-top: 70%;
+  right: 1%;
+  
   @media #{$medium-and-up} {
+    max-width: 34%;
+    margin-top: 45%;
+    right: 2%;
   }
 }
 
 .art-fiction {
   max-width: 23%;
-  margin-top: -16%;
-  left: 4%;
+  margin-top: 3%;
+  left: 2%;
+
   @media #{$medium-and-up} {
+    max-width: 23%;
+    margin-top: -16%;
+    left: 4%;
   }
 }
 
 .quote-andy {
   max-width: 57%;
-  margin-top: 0%;
+  margin-top: 10%;
   right: 15%;
+
   @media #{$medium-and-up} {
+    max-width: 57%;
+    margin-top: 0%;
+    right: 15%;
   }
 }
 
 .quote-heskhwis {
-  max-width: 50%;
-  margin-top: 40%;
-  left: 10%;
-
+  max-width: 61%;
+  margin-top: 48%;
+  left: 4%;
+  
   @media #{$medium-and-up} {
+    max-width: 50%;
+    margin-top: 40%;
+    left: 10%;
   }
 }
 
 .quote-lowpolycurls {
   position: relative;
-  max-width: 40%;
-  margin-top: 78%;
-  margin-left: 30%;
+  max-width: 65%;
+  margin-top: 108%;
+  margin-right: 4%;
+  z-index: 1;
 
   @media #{$medium-and-up} {
+    max-width: 40%;
+    margin-top: 78%;
+    margin-left: 30%;
   }
 }
 
@@ -66,27 +84,36 @@
   //   right: 2%;
 
   max-width: 24%;
-  margin-top: -8%;
-  right: -3%;
+  margin-top: 12%;
+  right: 0%;
 
   @media #{$medium-and-up} {
+    max-width: 24%;
+    margin-top: -8%;
+    right: -3%;
   }
 }
 
 .art-heskhwis {
   max-width: 31%;
-  right: 20%;
-  margin-top: 15%;
+  right: 11%;
+  margin-top: 36%;
 
   @media #{$medium-and-up} {
+    max-width: 31%;
+    right: 20%;
+    margin-top: 15%;
   }
 }
 
 .art-honeyxilia {
   max-width: 40%;
-  margin-top: 54%;
-  left: 0%;
+  margin-top: 67%;
+  left: 4%;
 
   @media #{$medium-and-up} {
+    max-width: 40%;
+    margin-top: 54%;
+    left: 0%;
   }
 }
