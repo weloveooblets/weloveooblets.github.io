@@ -22,7 +22,8 @@
   "homepage": "https://github.com/weloveooblets/weloveooblets.github.io#readme",
   "dependencies": {
     "fonts": "0.0.2",
-    "materialize-css": "^1.0.0-rc.2"
+    "materialize-css": "^1.0.0-rc.2",
+    "parcel-plugin-static-files-copy": "^2.2.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.10.1",
